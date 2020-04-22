@@ -1,0 +1,50 @@
+header {
+    background-color: $primaryColor;
+    .logo {
+        display: inline-block;
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 150%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        color: $fontColor;
+        background-color: $secondaryColor;
+    }   
+}
+
+header nav{
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        display: flex;
+        padding: 5px;
+        margin-left: 3px;
+        margin-bottom: unset;
+        background-color: $secondaryColor;
+        justify-content: center;
+        word-break:break-all;
+
+        a {
+            color: $fontColor;
+            text-decoration: none;
+        }
+
+        label {
+            color: $fontColor;
+        }
+
+        select {
+            background-color: $secondaryColor;
+            color: $fontColor;
+            width: 15px;
+            border: transparent;
+            outline-width: 0;
+        }
+    }
+}
+

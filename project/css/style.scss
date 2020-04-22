@@ -1,0 +1,57 @@
+    @import "variables";
+    @import "header";
+    @import "side-logo";
+    @import "carousel";
+    @import "footer";
+
+
+    body{
+       font-family: Tahoma, Geneva, sans-serif;
+    }
+  
+    .col-md-8 {
+        border: 10px solid $secondaryColor;
+        background-color: $thirdColor;
+        color: $fontColor;
+       
+      hr {
+        border-color: $primaryColor;
+        border-bottom: 2px double black;
+      }
+    }
+
+    .fill-h {
+        height: 750px;
+    }
+
+    @media (max-width: 1000px) {
+        .fill-h {
+            height: auto;
+        }
+    }
+    
+    .col-md-4 {
+        border: 10px solid $thirdColor;
+        background-color: $primaryColor;
+        color: $fontColor;
+    }
+
+    .social {
+        margin-bottom: 5%;
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: grey;
+      }
+
+    .article-categories a {
+    color: $fontColor;
+    text-decoration: underline;
+    }
+
+
