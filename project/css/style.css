@@ -131,11 +131,13 @@ footer .info {
 }
 
 footer .info span {
+  text-align: center;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 footer .info a {
+  display: inline-block;
   color: white;
   text-decoration: underline;
   margin-left: 15px;
